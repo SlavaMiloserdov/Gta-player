@@ -1,0 +1,29 @@
+{
+  "name": "phaser3-demo",
+  "version": "0.0.1",
+  "description": "Phaser demo",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "netlify deploy --prod",
+    "build": "webpack --config webpack/prod.js ",
+    "start": "webpack-dev-server --config webpack/base.js --open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^4.3.0",
+    "raw-loader": "^4.0.1",
+    "terser-webpack-plugin": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "netlify": "^4.2.0",
+    "phaser": "^3.23.0"
+  }
+}

@@ -1,3 +1,5 @@
+import Phaser from '../node_modules/phaser';
+
 var config = {
   type: Phaser.AUTO,
   parent: 'phaser-example',

@@ -1,13 +1,23 @@
 {
   "presets": [
-    ["@babel/env", {
-      "targets": {
-        "browsers": [
-          ">0.25%",
-          "not ie 11",
-          "not op_mini all"
-        ]
+      "@babel/preset-env"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+        {
+          "absoluteRuntime": false,
+          "corejs": false,
+          "helpers": true,
+          "regenerator": true,
+          "useESModules": true
+        }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
       }
-    }]
+    ]
   ]
 }

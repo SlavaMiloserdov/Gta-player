@@ -1,14 +1,54 @@
-# System and IDE files
-Thumbs.db
-.DS_Store
-.idea
-*.suo
-*.sublime-project
-*.sublime-workspace
-
-# Vendors
+# Dependency directories
 node_modules/
+jspm_packages/
 
-# Build
 dist/
-/npm-debug.log
+build/
+
+.DS_Store
+.vscode
+.idea
+.cache
+*.ai
+*.sublime*
+
+*.ini
+
+*.pdf
+*.psd
+
+scripts/location/
+.env
+npm-debug.*
+Thumbs.debug
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+.firebase/
+hosting.*
+
+# Local Netlify folder
+.netlify
